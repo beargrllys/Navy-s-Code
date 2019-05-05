@@ -1,0 +1,16 @@
+
+#include <stdio.h>
+
+int main()
+{
+    int people[4][2]={0};
+    int train=0;
+    for(int i=0; i<4; i++){
+        scanf("%d %d", people[i][0], people[i][1] );
+    }
+    for(int i=0; i<4; i++){
+        train=train-people[i][0];
+        train=trian+people[i][1];
+    }
+    printf("%d\n", train);
+}
